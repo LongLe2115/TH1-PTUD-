@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang cá nhân sinh viên</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+    <div class="card">
+      <div class="card-header-text">TRANG CÁ NHÂN SINH VIÊN</div>
+
+      <div class="avatar-block">
+        <img id="avatar" class="avatar" src="./image/avatar.jpg" alt="Ảnh đại diện" onerror="this.src='https://via.placeholder.com/200x200?text=Avatar'">
+      </div>
+
+      <div class="info-lines">
+        <div id="full-name">Lê Quang Long</div>
+        <!-- Mã sinh viên: có id nhưng ẩn với người xem -->
+        <div id="student-id">23636861</div>
+        <div id="email">
+          <a href="mailto:longle2112005@gmail.com">longle2112005@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="contact-row">
+        <span class="label">GitHub:</span>
+        <a id="github-link" href="https://github.com/LongLe2115" target="_blank" rel="noopener noreferrer">https://github.com/LongLe2115</a>
+      </div>
+      <div class="contact-row">
+        <span class="label">LinkedIn:</span>
+        <a id="linkedin-link" href="https://www.linkedin.com/in/long-le-4538353b7/" target="_blank" rel="noopener noreferrer">linkedin.com/in/long-le-4538353b7</a>
+      </div>
+
+      <div class="hobby-block">
+        <div class="label">Sở thích:</div>
+        <ul id="hobbies">
+          <li>Đọc sách công nghệ</li>
+          <li>Lập trình các dự án nhỏ</li>
+          <li>Chơi thể thao</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
